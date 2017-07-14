@@ -6,9 +6,10 @@ O nome *Tucuruí* é proveniente da língua Tupi (Brasil) e significa *"rio dos 
 
 Translation to **English**: [http://joseflavio.com/tucurui/en](http://joseflavio.com/tucurui/en)
 
-> **Versão atual:** 1.0
-> **Repositório:** [https://github.com/joseflaviojr/tucurui](https://github.com/joseflaviojr/tucurui)
-> **Autores:**
+> **Versão atual:** 1.0<br>
+> **Repositório:** [https://github.com/joseflaviojr/tucurui](https://github.com/joseflaviojr/tucurui)<br>
+> **Licença:** GNU Lesser General Public License, version 3 (LGPLv3)<br>
+> **Autores:**<br>
 > [José Flávio de Souza Dias Júnior](http://joseflavio.com) - contato@joseflavio.com
 
 ## 1. Documento Tucuruí
@@ -241,7 +242,7 @@ O arquivamento e o intercâmbio de documentos Tucuruí é feito através de arqu
  - `Lista de Pessoas.tuc`
  - `index.tuc`
 
-> A **codificação padrão** de documentos Tucuruí é a `UTF-8`.
+> A **codificação padrão** de documentos Tucuruí é a `UTF-8`.<br>
 > **MIME type**: `text/tucurui`
 
 ## 2. Modelo Tucuruí

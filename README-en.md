@@ -6,9 +6,10 @@ The name *Tucuruí* comes from the Tupi language (Brazil) and means *"grasshoppe
 
 Tradução para **Português/Brasil**: [http://joseflavio.com/tucurui/pt](http://joseflavio.com/tucurui/pt)
 
-> **Current version:** 1.0
-> **Repository:** [https://github.com/joseflaviojr/tucurui](https://github.com/joseflaviojr/tucurui)
-> **Authors:**
+> **Current version:** 1.0<br>
+> **Repository:** [https://github.com/joseflaviojr/tucurui](https://github.com/joseflaviojr/tucurui)<br>
+> **License:** GNU Lesser General Public License, version 3 (LGPLv3)<br>
+> **Authors:**<br>
 > [José Flávio de Souza Dias Júnior](http://joseflavio.com) - contato@joseflavio.com
 
 ## 1. Tucuruí Document
@@ -241,7 +242,7 @@ The archiving and exchange of Tucuruí documents is done through raw text files 
  - `List of People.tuc`
  - `index.tuc`
 
-> The **standard character encoding** of Tucuruí documents is the `UTF-8`.
+> The **standard character encoding** of Tucuruí documents is the `UTF-8`.<br>
 > **MIME type**: `text/tucurui`
 
 ## 2. Tucuruí Document Template
