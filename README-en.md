@@ -47,6 +47,8 @@ Conceptually, Tucuruí **objects** are equivalent to [XML](https://en.wikipedia.
 </html>
 ```
 
+> The indentation of the HTML examples in this documentation do not match the actual results of the automatic conversion, thus only to improve understanding.
+
 The `title` object contains the `Hello world!` value and was preceded by 2 indents, being hierarchically subordinate to the `head` object, which with 1 indentation is subordinate to the `html` root object. Every value contained in the same line of its object must be preceded by a colon and a space, as in `title: Hello world!`.
 
 > A Tucuruí document can contain more than one root object, including homonyms.
@@ -96,6 +98,26 @@ html
         </div>
     </body>
 </html>
+```
+
+In fact, a free value is a set of values, with the inclusion of `{n}` line break being automatic at the end of all lines except the last one. Descending objects of a free value will be subordinated only to the last value (last line). Equivalence example:
+
+``` no-highlight
+obj
+    ---
+    Line 1
+    Line 2
+    Line 3
+    ---
+        -id: 000
+```
+
+``` no-highlight
+obj
+    : Line 1{n}
+    : Line 2{n}
+    : Line 3
+        -id: 000
 ```
 
 ### 1.5. Concatenation

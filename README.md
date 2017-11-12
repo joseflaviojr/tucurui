@@ -47,6 +47,8 @@ Conceituamente, **objetos** Tucuruí são equivalentes a **tags** [XML](https://
 </html>
 ```
 
+> A indentação dos exemplos em HTML, presentes nesta documentação, não correspondem aos resultados efetivos da conversão automática, estando assim apenas para melhorar a compreensão.
+
 O objeto `title` contém o valor `Alô mundo!` e foi precedido por 2 indentações, estando hierarquicamente subordinado ao objeto `head`, que com 1 indentação está subordinado ao objeto raiz `html`. Todo valor contido na mesma linha do seu referido objeto deve ser precedido por dois pontos e um espaço, tal como em `title: Alô mundo!`.
 
 > Um documento Tucuruí pode conter mais de um objeto raiz, inclusive homônimos.
@@ -96,6 +98,26 @@ html
         </div>
     </body>
 </html>
+```
+
+De fato, um valor livre é um conjunto de valores, sendo automática a inclusão de quebra de linha `{n}` no final de todas as linhas, com exceção da última. Objetos descendentes de um valor livre estarão subordinados apenas ao último valor (última linha). Exemplo de equivalência:
+
+``` no-highlight
+obj
+    ---
+    Linha 1
+    Linha 2
+    Linha 3
+    ---
+        -id: 000
+```
+
+``` no-highlight
+obj
+    : Linha 1{n}
+    : Linha 2{n}
+    : Linha 3
+        -id: 000
 ```
 
 ### 1.5. Concatenação
