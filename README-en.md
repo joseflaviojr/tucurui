@@ -422,4 +422,4 @@ System.out.println( title );
 
 The above code will have as output the `Tucuruí` value.
 
-> The [Urucum](https://github.com/joseflaviojr/urucum) library enables the conversion of Tucuruí documents to `org.w3c.dom.Document` (XML/DOM), expanding its scope of application.
+> The [Urucum](https://github.com/joseflaviojr/urucum) library enables the conversion of Tucuruí documents to [XML](https://en.wikipedia.org/wiki/XML) and vice versa, expanding its scope of application.

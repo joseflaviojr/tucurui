@@ -422,4 +422,4 @@ System.out.println( titulo );
 
 O código acima terá como saída o valor `Tucuruí`.
 
-> A biblioteca [Urucum](https://github.com/joseflaviojr/urucum) possibilita a conversão de documentos Tucuruí para `org.w3c.dom.Document` (XML/DOM), ampliando seu escopo de aplicação.
+> A biblioteca [Urucum](https://github.com/joseflaviojr/urucum) possibilita a conversão de documentos Tucuruí para [XML](https://pt.wikipedia.org/wiki/XML) e vice-versa, ampliando seu escopo de aplicação.
