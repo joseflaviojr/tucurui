@@ -423,3 +423,33 @@ System.out.println( title );
 The above code will have as output the `Tucuruí` value.
 
 > The [Urucum](https://github.com/joseflaviojr/urucum) library enables the conversion of Tucuruí documents to [XML](https://en.wikipedia.org/wiki/XML) and vice versa, expanding its scope of application.
+
+### 3.1 Groovy Script
+
+This project includes basic implementation of script in [Groovy](https://www.groovy-lang.org/syntax.html) language that uses [Urucum](https://github.com/joseflaviojr/urucum) to perform, in the command terminal, quick conversion of Tucuruí to XML or HTML.
+
+``` groovy
+./tuc-html.groovy Exemplo.tuc
+./tuc-xml.groovy Exemplo.tuc
+```
+
+Or:
+
+``` groovy
+groovy tuc-html.groovy Exemplo.tuc
+groovy tuc-xml.groovy Exemplo.tuc
+```
+
+HTML output:
+
+``` html
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Tucuru&iacute;</title>
+</head>
+<body>
+<p>Meu nome &eacute; <strong>Tucuru&iacute;</strong>. Rio dos gafanhotos.</p>
+</body>
+</html>
+```

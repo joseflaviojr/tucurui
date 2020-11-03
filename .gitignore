@@ -1,10 +1,11 @@
 
-# .gitignore 2017-09-15
+# .gitignore universal 1.2
 
 # Sistema Operacional
 .DS_Store*
 .Spotlight*
 .Trashes
+._*
 ehthumbs.db
 Thumbs.db
 *.so
@@ -19,8 +20,8 @@ Thumbs.db
 *.app
 
 # Geral
-.vscode/
 rascunho/
+Rascunho/
 
 # Java
 *.class
@@ -36,6 +37,9 @@ build/
 target/
 test-output/
 
+# Visual Studio Code
+.vscode/
+
 # Eclipse
 .project
 .classpath
@@ -50,7 +54,10 @@ out/
 
 # SASS
 .sass-cache/
-*.css.map
+
+# Jekyll
+_site
+.jekyll-metadata
 
 # C/C++
 *.slo
@@ -59,6 +66,9 @@ out/
 *.obj
 *.gch
 *.pch
+
+# R
+.Rhistory
 
 # Fortran
 *.mod
